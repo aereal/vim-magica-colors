@@ -73,7 +73,7 @@ else
   let s:annotate         = s:blue
   let s:fatal            = s:dark_red
   let s:invisible        = s:gray
-  let s:hidden           = s:dark_gray
+  let s:hidden           = s:gray
   let s:charm            = s:magenta
   let s:subdued_annotate = s:brown
   let s:accent           = s:red
