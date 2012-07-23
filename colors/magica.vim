@@ -86,7 +86,7 @@ endif
 call s:h('Normal', {'fg': s:normal, 'bg': s:bg})
 call s:h('Visual', {'bg': s:magenta})
 call s:h('Cursor', {'fg': s:bg, 'bg': s:obbligato})
-call s:h('Folded', {'fg': s:invisible})
+call s:h('Folded', {'fg': s:accent, 'gui': 'bold', 'cterm': 'bold'})
 call s:h('FoldColumn', {'fg': s:normal})
 call s:h('ModeMsg', {'fg': s:ok, 'gui': 'bold', 'cterm': 'bold'})
 call s:h('WarningMsg', {'fg': s:annotate, 'gui': 'bold', 'cterm': 'bold'})
