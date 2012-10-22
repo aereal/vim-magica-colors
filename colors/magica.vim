@@ -103,6 +103,9 @@ call s:h('VertSplit', {'fg': s:hidden, 'bg': s:invisible})
 call s:h('Question', {'fg': s:ok, 'gui': 'bold', 'cterm': 'bold'})
 call s:h('Search', {'bg': s:highlight})
 call s:h('SpellBad', {'sp': s:fatal, 'gui': 'undercurl'})
+call s:h('TabLine', {'fg': s:normal, 'bg': s:subdued_annotate})
+call s:h('TabLineFill', {'fg': s:normal, 'bg': s:subdued_annotate})
+call s:h('TabLineSel', {'fg': s:normal, 'bg': s:charm})
 " }}}
 " Diff {{{
 call s:h('DiffAdd', {'fg': s:ok})
